@@ -1,0 +1,17 @@
+{
+  "name": "crawler-habitatge",
+  "version": "1.0.0",
+  "description": "Crawler para poder ver las listas de VPO de Cataluña y que envie una notificación",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "author": "Joel Oña Ferrer",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5"
+  }
+}
